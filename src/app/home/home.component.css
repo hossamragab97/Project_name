@@ -1,0 +1,66 @@
+.toolbar img {
+  height: 8vh;
+  width: 100px;
+}
+
+.main-div {
+  background-image: url('/assets/blue.jpg');
+  background-size: cover;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  /* width: 100%; */
+}
+
+.welcome{
+  margin:50px ;
+}
+
+.welcomeTo {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.but-animation {
+  margin-top: 450px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.but-animation button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px 0 15px 0;
+}
+
+
+@media (max-width: 667px) {
+  .welcome{
+    margin-top: 80px;
+  }
+
+  .welcomeTo {
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .but-animation {
+    margin-top: 300px;
+    text-align: center;
+    display: flex;
+  }
+
+  .but-animation button {
+    font-size: 16px;
+  }
+}
+
